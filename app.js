@@ -6,7 +6,7 @@ const port = 5000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello GoGoAir- Welcome to Devops Project\n');
+  res.end('Hello GoGoAir- Welcome to Devops project\n');
 });
 
 server.listen(port, hostname, () => {
